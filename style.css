@@ -1,0 +1,65 @@
+body {
+  background-color: #0f172c;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CONTAINER CARD */
+.container {
+  text-align: center;
+  padding: 40px 50px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 40px rgba(56, 189, 248, 0.18);
+  backdrop-filter: blur(6px);
+}
+
+/* JARAK ANTAR ELEMEN */
+.container > * {
+  margin: 14px 0;
+}
+
+/* JUDUL */
+h1 {
+  color: #38bdf8;
+  font-size: 42px;
+  text-shadow: 0 0 14px rgba(56, 189, 248, 0.5);
+}
+
+/* TEXT */
+p {
+  font-size: 16px;
+  transition: color 0.5s ease;
+}
+
+/* BUTTON */
+button {
+  background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+  color: #0f172c;
+  border: none;
+  padding: 14px 32px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 10px 30px rgba(56,189,248,0.45);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+/* FADE-IN */
+.fade {
+  opaci
